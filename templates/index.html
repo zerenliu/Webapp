@@ -5,11 +5,12 @@
         <link href="../static/main.css" rel = "stylesheet">
     </head>
     <body>
+      <!--test-->
         <div class="container">
             <h1>Collecting data</h1>
             <h3>please fill the entries to get data</h3>
             <form action="{{url_for('success')}}" method="POST">
-                <input title="please type" placeholder="Enter email here" type="email" name="email_name" required> 
+                <input title="please type" placeholder="Enter email here" type="email" name="email_name" required>
                 <br>
                 <input title="please type" placeholder="Enter height here" type="number" min="50", max = "300", name="height_name" required>
                 <br>
